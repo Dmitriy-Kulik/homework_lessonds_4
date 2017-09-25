@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-<!--    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">-->
+    <!--<script src="js/speedCarousel.js"></script>-->
+    <!--<link type="text/javascript" src="js/speedCarousel.js">-->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
 
 <body data-spy="scroll" data-toggle=".navbar" data-offset="50">
-<nav class="navbar navbar-default navbar-fixed-top ">
+    <nav class="navbar navbar-default navbar-fixed-top ">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main"  aria-expanded="false">
                 <span class="icon-bar"></span>
@@ -44,7 +45,7 @@
             </div>
     </nav>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -82,62 +83,137 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <div class="">
 
-    </div>
     <div class="contBand ">
         <h3>THE BAND</h3>
         <p>We love music!</p>
         <p>We have created a fictional band website. Lorem ipsum..</p>
-        <div class="row">
-            <div class="col-sm-4">
-                <p><strong>Name</strong></p><br>
-                <a href="#surik" data-toggle="collapse">
-                    <img src="img/surikat.jpg" class="img-circle surik" alt="Random Name">
-                </a>
-                <div id="surik" class="collapse">
-                    <h3>Hi!</h3>
+        <div class="s">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p><strong>Name</strong></p><br>
+                    <a href="#surik" data-toggle="collapse">
+                        <img src="img/surikat.jpg" class="img-circle surik" alt="Random Name">
+                    </a>
+                    <div id="surik" class="collapse">
+                        <h3>Hi!</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <p><strong>Name</strong></p><br>
-                <a href="#surik2" data-toggle="collapse">
-                    <img src="img/surikat.jpg" class="img-circle surik" alt="Random Name">
-                </a>
-                <div id="surik2" class="collapse">
-                    <h3>Hi!</h3>
+                <div class="col-sm-4">
+                    <p><strong>Name</strong></p><br>
+                    <a href="#surik2" data-toggle="collapse">
+                        <img src="img/surikat.jpg" class="img-circle surik" alt="Random Name">
+                    </a>
+                    <div id="surik2" class="collapse">
+                        <h3>Hi!</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <p><strong>Name</strong></p><br>
-                <a href="#surik3" data-toggle="collapse">
-                    <img src="img/surikat.jpg" class="img-circle surik" alt="Random Name">
-                </a>
-                <div id="surik3" class="collapse">
-                    <h3>Hi!</h3>
+                <div class="col-sm-4">
+                    <p><strong>Name</strong></p><br>
+                    <a href="#surik3" data-toggle="collapse">
+                        <img src="img/surikat.jpg" class="img-circle surik" alt="Random Name">
+                    </a>
+                    <div id="surik3" class="collapse">
+                        <h3>Hi!</h3>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="">
 
+    <div class="datesTour">
+        <div class="contTourDates">
+            <h2 class="text-center">TOUR DATES</h2>
+            <p class="text-center">Lorem ipsum we'll play you some music.</p>
+            <p class="text-center">Remember to book your tickets!</p>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
+            <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
+            <li class="list-group-item">November <span class="badge">3</span></li>
+        </ul>
     </div>
-    <div class="">
 
+    <div class="contTourCitis">
+        <div class="contCitis">
+            <div class="row text-center">
+                    <div class="col-sm-4">
+                        <div class="contImg">
+                            <img src="https://www.w3schools.com/bootstrap/paris.jpg">
+                            <h5>Paris</h5>
+                            <p>Friday 27 November 2015</p>
+                            <p><button class="btn" data-toggle="modal" data-target="#myModal">Bay Tickets</button></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="contImg">
+                            <img src="https://www.w3schools.com/bootstrap/newyork.jpg">
+                            <h5>New York</h5>
+                            <p>Sat. 28 November 2015</p>
+                            <p><button class="btn" data-toggle="modal" data-target="#myModal">Bay Tickets</button></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="contImg">
+                            <img src="https://www.w3schools.com/bootstrap/sanfran.jpg">
+                            <h5>San Francisco</h5>
+                            <p>Sun. 29 November 2015</p>
+                            <p><button class="btn" data-toggle="modal" data-target="#myModal">Bay Tickets</button></p>
+                        </div>
+                    </div>
+            </div>
+        </div>
     </div>
-    <div class="">
 
+    <div class="contContacts">
+        <h3 class="text-center">Contact</h3>
+        <p class="text-center"><em>We love our fans!</em></p>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Fan? Drop a note.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+            </div>
+            <div class="col-md-8">
+                <div class="row f">
+                    <div class="col-md-6">
+                        <input class="form" name="Name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input class="form" name="Email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <textarea class="form" rows="5">Massege</textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <div id="googleMap"></div>
+    <script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+            var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var marker = new google.maps.Marker({position:myCenter});
+            marker.setMap(map);
+        }
+    </script><script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
 
-
-
-
-    <script type="text/javascript">
+<!--    <script type="text/javascript">
         $('#myCarousel').carousel({
             interval: 5000
         });
-    </script>
+    </script>-->
 </body>
 </html>

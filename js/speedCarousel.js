@@ -1,6 +1,10 @@
-
+/*
+(document).ready(function () {
     ('#myCarousel').carousel({
-        interval: 100
+        interval: 1000
     });
+});*/
 
-    alert("Добро пожаловать!");
+/*('#myCarousel').carousel({
+    interval:1000
+})*/
